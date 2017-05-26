@@ -4,6 +4,9 @@ output: html_notebook
 bibliography: references.bib
 ---
 
+<div id="FAQ">
+[[Jump to Exemplar]](#exemplar)
+
 # What is effect size?
 Broadly speaking, an effect size is *"anything that might be of interest"* [@Cumming2013a], i.e., a quantity that captures the practical magnitude of the effect studied. For example, *the difference* between task completion time (in seconds) or *the difference* between error rate (in percent).
 
@@ -16,6 +19,7 @@ Cohen’s *d* --- the difference in means divided by the standard deviation --- 
 
 If you are reporting standardized effect sizes, and there is no inherent reasoning to argue for a particular interpretation of the practical significance of the standardized effect size, you should find another way to assess the practical significance of the effect.
 
+▸ Exemplar: [simple effect size](#simple-effect-size) and [standardized effect size](#standardized-effect-size)
 
 # How do you know it is large enough?
 Deciding if an effect size is “large enough” often requires expert judgement. Is a difference of 100ms a large difference in reaction time? Is a difference of 100ms a large difference in time to receive a chat message? 
@@ -41,6 +45,7 @@ The above effect size, known as Cohen’s *d*, divides the absolute mean differe
 
 Sometimes, the main focus of a study is on the direction (rather than magnitude) of the effect and the effect sizes are hard to compute or to interpret. In such cases, practical significance should be the focus.
 
+▸ Exemplar: [standardized effect size](#standardized-effect-size)
 
 
 # How should effect sizes be reported?
@@ -75,7 +80,11 @@ Above, Z is the Z-score and N is the number of observations in all groups [@Rose
 
 According to [@Cohen1988a], an *r* of 0.1 is “small,” of 0.3 is “medium,” and of 0.5 is “large.” However, one should take care when interpreting effect sizes rotely. Instead, consider the practical differences emerging in one’s study and whether those differences are meaningful in the world.
 
+▸ Exemplar: [Nonparametric effect size](#nonparametric-effect-size)
+
 # Exemplar
+
+[[Jump to FAQ]](#FAQ)
 
 ```{r}
 library(tidyverse) # for data wrangling and plotting
