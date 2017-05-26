@@ -7,6 +7,10 @@ bibliography: references.bib
 <div id="FAQ">
 [[Jump to Exemplar]](#exemplar)
 
+<div style="text-align:center">
+![](effectsize_firstfigure.png)
+</div>
+
 # What is effect size?
 Broadly speaking, an effect size is *"anything that might be of interest"* [@Cumming2013a], i.e., a quantity that captures the practical magnitude of the effect studied. For example, *the difference* between task completion time (in seconds) or *the difference* between error rate (in percent).
 
