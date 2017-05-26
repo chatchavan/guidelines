@@ -84,7 +84,8 @@ o_ <- function(x, k = 2) format(round(x, k), nsmall = k)  # for decimal point fo
 ```
 
 ## Data
-Assuming between-subjects design:
+
+Scenario: An experiment comparing two group of users in terms of their task completion time (between-subjects design).
 ```{r}
 set.seed(12)
 n <- 20
